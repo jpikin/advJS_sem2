@@ -9,6 +9,7 @@ btn.addEventListener('click', (e) => {
     try {
         validator(inputText);
         const li = document.createElement('li');
+        li.classList.add('comment');
         li.textContent = inputText;
         ulList.appendChild(li);
         input.value = '';
