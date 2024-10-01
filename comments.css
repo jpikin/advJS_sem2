@@ -7,16 +7,29 @@
     
 }
 .input {
-    width: 250px;
+    width: 300px;
     height: 30px;
 }
 .all_comments {
     margin-top: 30px;
     border: 1px solid black;
-    width: 700px;
+    min-height: 30px;
     height: auto;
+    max-width: 600px;
+    border-radius: 5px;
 }
 .comments_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 10px;
     margin-bottom: 10px;
+    gap: 10px;
+    overflow:auto;
+}
+.comment {
+    max-width: 95%;
+    word-wrap:normal;
+    
+    
 }
