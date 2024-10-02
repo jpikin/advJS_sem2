@@ -16,7 +16,7 @@ initialData.forEach(product => {
 });
 
 
-btn.addEventListener('click', (e) => {
+btn.addEventListener('click', () => {
     const inputText = input.value;
     
     try {
