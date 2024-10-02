@@ -29,7 +29,6 @@
 }
 .comment {
     max-width: 95%;
-    word-wrap:normal;
-    
-    
+    word-wrap:normal; 
 }
+
