@@ -28,6 +28,9 @@ btn.addEventListener('click', (e) => {
     
 });
 
+/**
+ * Проверяем комментарий на длину 
+ */
 function validator(text) {
     if (50 <= text.length && text.length <= 100) {
         return text;
@@ -35,6 +38,10 @@ function validator(text) {
         throw new Error(`Длина комментария должна быть от 50 до 100 символов. Сейчас длина комментария ${text.length} символов`);
     }
 }
+
+/**
+ * Добавляем новый комментарий
+ */
 function addNewComment(text) {
     const li = document.createElement('li');
     li.classList.add('comment');
